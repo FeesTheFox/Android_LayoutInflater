@@ -29,17 +29,19 @@
                 android:text="@string/linear_layout"></TextView>
         </LinearLayout>
 
-        <LinearLayout
+        <RelativeLayout
             android:id="@+id/rellayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp">
+            android:layout_margin="20dp"
+            >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/relative_layout"></TextView>
-        </LinearLayout>
+                android:text="@string/relative_layout"
+                ></TextView>
+        </RelativeLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout linLayout = (LinearLayout) findViewById(R.id.linLayout);
         linLayout.addView(view);
 
-        LinearLayout relLayout = (LinearLayout) findViewById(R.id.rellayout);
+        RelativeLayout relLayout = (RelativeLayout) findViewById(R.id.rellayout);
         View view2 = ltInflater.inflate(R.layout.text,relLayout,true);
 
         Log.d(LOG_TAG, "Class of view: " + view.getClass().toString());
